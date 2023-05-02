@@ -298,4 +298,7 @@
 
     <!-- Exempt ImsService from privacy (location) indicators -->
     <string name="config_systemTelephonyPackage" translatable="false">com.shannon.imsservice</string>
+
+    <!-- GNSS PSDS -->
+    <string name="config_gnssPsdsType">broadcom</string>
 </resources>
