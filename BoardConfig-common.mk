@@ -435,3 +435,6 @@ BOARD_PVMFWIMAGE_PARTITION_SIZE := 0x00100000
 # Adaptive charging
 PRODUCT_COPY_FILES += \
     device/google/gs201/conf/adaptivecharging.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/adaptivecharging.xml
+
+# Init
+TARGET_INIT_VENDOR_LIB := //device/google/gs201:libinit_gs201
