@@ -30,15 +30,15 @@
       <item>2364</item> <!-- sensorLocationY -->
       <item>142</item>  <!-- sensorRadius -->
     </integer-array>
-    
+
     <!-- Reverse Charging --> 
     <bool name="config_show_reverse_charging">true</bool>
 
     <!-- Whether the device supports Smart Pixels -->
-    <bool name="config_supportSmartPixels">false</bool>
+    <bool name="config_supportSmartPixels">true</bool>
 
     <!-- Pocket Lock -->
-    <bool name="config_pocketModeSupported">true</bool>   
+    <bool name="config_pocketModeSupported">true</bool>
 
     <!-- The component name for the default system attention service.
          This service must be trusted, as it can be activated without explicit consent of the user.
@@ -46,11 +46,14 @@
     -->
     <string name="config_defaultAttentionService" translatable="false">com.google.android.as/com.google.android.apps.miphone.aiai.attention.service.AiAiAttentionService</string>
 
-    <!-- Live Captions provided by Google's Device Personalization Service package  -->
+    <!-- Live Captions -->
     <string name="config_defaultSystemCaptionsManagerService">com.google.android.as/com.google.android.apps.miphone.aiai.captions.SystemCaptionsManagerService</string>
 
     <!-- Recents text and image selection for Pixel Launcher (not supported by Launcher3) -->
     <string name="config_defaultContentSuggestionsService" translatable="false">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiContentSuggestionsService</string>
+
+    <!-- Launcher app suggestions -->
+    <string name="config_defaultAppPredictionService" translatable="false">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService</string>
 
     <!-- Make AiAi the default role holder for System Intelligence -->
     <string name="config_systemAmbientAudioIntelligence">com.google.android.as</string>
@@ -59,4 +62,7 @@
     <string name="config_systemTextIntelligence">com.google.android.as</string>
     <string name="config_systemUiIntelligence">com.google.android.as</string>
     <string name="config_systemVisualIntelligence">com.google.android.as</string>
+
+    <!-- IWLAN-->
+    <string name="config_qualified_networks_service_package">com.android.qns</string>
 </resources>
